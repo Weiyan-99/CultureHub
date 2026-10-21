@@ -22,8 +22,7 @@ namespace CultureHub.Models
         /// <summary>
         /// 概述
         /// </summary>
-        [Required]
-        public required string Description { get; set; }
+        public string? Description { get; set; }
 
         /// <summary>
         /// 開始日期
