@@ -1,0 +1,6 @@
+@CultureHub_HostAddress = http://localhost:5125
+
+GET {{CultureHub_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
