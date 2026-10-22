@@ -11,7 +11,8 @@ namespace CultureHub.Controllers
     [ApiController]
     public class EventsController : ControllerBase
     {
-        public AppDbContext _dbContext { get; }
+        //宣告一個唯讀的資料庫連線變數
+        private readonly AppDbContext _dbContext;
 
         public EventsController(AppDbContext dbContext)
         {
